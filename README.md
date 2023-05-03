@@ -12,4 +12,6 @@ Begin by training yolov5s using the given cars.yaml, which contains the custom l
   
 Then, use the best.pt to run on test data:
   !python detect.py --data cars.yaml --save-txt --weights best.pt
+  
+Finally, run myfile.py to get the submission.csv
 
